@@ -1,0 +1,1 @@
+docker run -p 25:22 -t -i -v /var/log/auth-docker-ssh-server.log:/var/log/auth.log -v /etc/localtime:/etc/localtime:ro -h server ssh-server
